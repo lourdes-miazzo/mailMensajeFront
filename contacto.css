@@ -1,0 +1,194 @@
+.titleContact{
+    margin-top: 2rem;
+    margin-bottom: 1.8rem;
+    color: #c9E6E3
+}
+label{
+    color: #c9E6E3
+}
+
+.backOrg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.backColor{
+    background-color: #269989;
+    max-width: 100%;
+    width: 100vw;
+    height: 90vh;
+}
+
+.formOrg{
+    background-color: #2f9686;
+    height: 70vh;
+    width: 84vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem; 
+    box-shadow: 26px 10px 19px 0px #506567;
+    border-radius: 5px;
+    margin-top: 2rem;
+}
+
+.my-button{
+    background-color:  #279081;
+    border-radius: 7px;
+    margin: 0.3rem;
+    margin-top: 2rem;
+    color: #c9E6E3;
+    padding-bottom: 0.4rem;
+    padding-top: 0.4rem;
+}
+
+
+input{
+    border-radius: 3px;
+   /*  width: 73vw; */
+    margin: 5px;
+    border: none;
+    color: #c9E6E3;
+    border-bottom: 1px solid #efefef;
+    outline: none;
+    background-color: #2f9686;
+    margin-right: 1rem;
+}
+
+.icono{
+    width: 3rem;
+    padding-left: 0.7rem;
+}
+
+
+.locationRegist{
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+.reCaptchaContact{
+
+    margin-top: 1rem;
+
+}
+@media (min-width: 294px){
+    .titleContact{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+    .formOrg{
+        height: 55vh;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .locationRegist{
+        margin-left: auto;
+        margin-top: 5rem;
+        font-size: 1rem;
+    }
+    
+}  /* CIERRE MEDIA QUERIE  294px NO BORRAR!   */
+
+@media (min-width: 360px){
+
+    .formOrg{
+        height: 55vh;
+        width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .locationRegist{
+        margin-left: auto;
+        margin-top: 4rem;
+        font-size: 1rem;
+    }
+    
+}  /* CIERRE MEDIA QUERIE  360px NO BORRAR!   */
+@media (min-width: 390px){
+
+    .formOrg{
+        height: 55vh;
+        width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .locationRegist{
+        margin-left: auto;
+        margin-top: 6rem;
+    }
+    
+}  /* CIERRE MEDIA QUERIE 390px NO BORRAR!   */
+
+@media (min-width: 414px){
+
+    .formOrg{
+        height: 55vh;
+        width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .locationRegist{
+        margin-top: 7rem;
+    }
+    
+}  /* CIERRE MEDIA QUERIE 414px NO BORRAR!   */
+
+
+@media (min-width: 768px){
+    .titleContact{
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .backColor{
+        height: 89vh;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .formOrg{
+        height: 45vh;
+        width: 40vw;
+        padding: 3rem; 
+        margin-bottom: 10rem;
+    }
+    
+    .locationRegist{
+        margin-left: auto;
+        margin-top: 2rem;
+    }
+    .input{
+        width: 12vw;
+    }
+}  /* CIERRE MEDIA QUERIE 768 NO BORRAR!   */
+
+
+@media (min-width: 1024px){
+    .backColor{
+        height: 90vh;
+    }
+    .titleContact{
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+    
+    .formOrg{
+        height: 53vh;
+        width: 28vw;
+        padding: 3rem; 
+        margin-bottom: 5rem;
+    }
+    .input{
+        width: 23vw;
+    }
+
+}  /* CIERRE MEDIA QUERIE 1024 NO BORRAR!   */
